@@ -1,11 +1,11 @@
-# Nestjs specific
-/dist
-/node_modules
-/build
-/tmp
+# Node
+node_modules/
+dist/
+build/
+tmp/
 
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 pnpm-debug.log*
@@ -13,12 +13,12 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
-# dotenv environment variable files
+# Env
 .env
-.env.development
-.env.test
-.env.production
+.env.*
+!.env.example
+!.env.template
 
-# temp directory
-.temp
-.tmp
+# Temp
+.temp/
+.tmp/
